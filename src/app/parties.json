@@ -1,0 +1,49 @@
+
+ [
+    {
+      "id": 1,
+      "partyName": "Boda LUPE Y MIGUE",
+      "churchName": "Iglesia del pueblo de santa cruz meyohualco",
+      "churchAddress": "direccion de la iglesia",
+      "holyMassHour": "03:00 - 04:00 pm",
+      "partyRoomName": "SALON CORONA",
+      "partyRoomAddress": "calle segunda de guadalupe magaña",
+      "openingHours": "18:00 pm",
+      "closingHours": "23:00 pm",
+      "city": "ciudad de mexico",
+      "text1":"",
+      "text2":"",
+      "text3":"",
+      "text4":"",
+      "text5":"",
+      "text6":"",
+      "text7":"",
+      "text8":"",
+      "text9":"",
+      "text10":""
+    },
+    {
+      "id": 2,
+      "partyName": "Boda LUPE Y MIGUE",
+      "churchName": "Iglesia del pueblo de santa cruz meyohualco",
+      "churchAddress": "direccion de la iglesia",
+      "holyMassHour": "03:00 - 04:00 pm",
+      "partyRoomName": "SALON CORONA",
+      "partyRoomAddress": "calle segunda de guadalupe magaña",
+      "openingHours": "18:00 pm",
+      "closingHours": "23:00 pm",
+      "city": "ciudad de mexico",
+      "text1":"",
+      "text2":"",
+      "text3":"",
+      "text4":"",
+      "text5":"",
+      "text6":"",
+      "text7":"",
+      "text8":"",
+      "text9":"",
+      "text10":""
+      
+    }
+  ]
+
