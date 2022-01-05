@@ -1,13 +1,14 @@
-.bg-primary {
-    background-color: #910505 !important;
-}
-.navbar-dark .navbar-nav .nav-link {
-    color: rgba(255, 255, 255, 0.7);
-}
-
-.navbar a:hover {
-    background: rgba(255, 255, 255, 0.3);
+  .bg-primary {
+      background-color: #910505 !important;
   }
+  .navbar-dark .navbar-nav .nav-link {
+      color: rgba(255, 255, 255, 0.7);
+  }
+
+  .navbar a:hover {
+    background: rgba(221, 60, 60, 0.3);
+  }
+
   .navbar {
     position: fixed; /* Set the navbar to fixed position */
     top: 0; /* Position the navbar at the top of the page */
@@ -21,10 +22,14 @@
     text-align: center;
   }
 
-
-
-
   .texto-centrado {
    text-align: center;
    font-size: 0.8rem; // LETTER SIZE
   }
+
+  .logo{
+    display: block;
+    margin: 0px auto;
+    width: 75%; //tamaño de imagen
+  }
+ 
