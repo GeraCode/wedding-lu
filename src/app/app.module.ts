@@ -8,6 +8,7 @@ import { NavbarComponent } from './layout/navbar/navbar.component';
 import { TimerComponent } from './components/timer/timer.component';
 import { CarouselComponent } from './components/carousel/carousel.component';
 import { GalleryComponent } from './components/gallery/gallery.component';
+import { NgImageSliderModule } from 'ng-image-slider';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { GalleryComponent } from './components/gallery/gallery.component';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    NgbModule
+    NgbModule,
+    NgImageSliderModule
   ],
   providers: [],
   bootstrap: [AppComponent]
