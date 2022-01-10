@@ -2,57 +2,47 @@
 <app-navbar></app-navbar>
 
 <!-- IMAGEN DE INICIO CON CONTADOR -->
-<section  id="inicio">
-    <img src="./assets/photos/lu1.jpg" alt="" width="100%">
-    <app-timer></app-timer>
+<section  id="inicio" >
+    <!--<h1 style=" position: absolute; 
+                top: 16vw; 
+                left: -3vw;
+                z-index: 500; 
+                -ms-transform: rotate(-20deg); 
+                transform: rotate(-20deg);
+                color:rgb(192, 0, 0) ;
+                text-align: center;
+                FONT-FAMILY: cursive;
+                font-weight: bold;
+                font-size: 2.5vw;
+                z-index: 100;" 
+                > 
+                <p>Nuestra boda </p> 
+
+        <br>María Guadalupe
+        <br>&
+        <br>Miguel Ángel
+        <br><br> "25 de febrero del 2022"
+    </h1> -->
+    <img src="./assets/imagenes/principal.jpg" alt="" width="100%" class="imagenAtras">
+    <app-timer style="align-content: center;" ></app-timer>
 </section>
 
-<!-- IMAGEN CON MOVIMIENTO -->
-<marquee scrollamount="20" direction="right" style="position: relative; top:-20rem;">
-    <!-- //guadalupe y miguel -->
-    <img src="./assets/photos/GUMI.PNG" width="40%" >
-    <!-- //guadalupe y miguel -->
-    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-    <img src="./assets/photos/globo.png" width="5%" style=" -ms-transform: rotate(20deg); /* IE 9 */  transform: rotate(20deg);">
-    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-    <img src="./assets/photos/globo.png" width="5%" style=" -ms-transform: rotate(-20deg); /* IE 9 */ transform: rotate(-20deg);">
-    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-    <!-- //guadalupe y miguel -->
-    <img src="./assets/photos/GUMI.PNG" width="40%" >
-    <!-- //guadalupe y miguel -->
-    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-    <img src="./assets/photos/globo.png" width="5%" style=" -ms-transform: rotate(20deg); /* IE 9 */  transform: rotate(20deg);">
-    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-    <img src="./assets/photos/globo.png" width="5%" style=" -ms-transform: rotate(-20deg); /* IE 9 */ transform: rotate(-20deg);">
-    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-     <!-- //guadalupe y miguel -->
-     <img src="./assets/photos/GUMI.PNG" width="40%" >
-     <!-- //guadalupe y miguel -->
-     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-     <img src="./assets/photos/globo.png" width="5%" style=" -ms-transform: rotate(20deg); /* IE 9 */  transform: rotate(20deg);">
-     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-     <img src="./assets/photos/globo.png" width="5%" style=" -ms-transform: rotate(-20deg); /* IE 9 */ transform: rotate(-20deg);">
-     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-    <!-- //guadalupe y miguel -->
-    <img src="./assets/photos/GUMI.PNG" width="40%" >
-    <!-- //guadalupe y miguel -->
-    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-    <img src="./assets/photos/globo.png" width="5%" style=" -ms-transform: rotate(20deg); /* IE 9 */  transform: rotate(20deg);">
-    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-    <img src="./assets/photos/globo.png" width="5%" style=" -ms-transform: rotate(-20deg); /* IE 9 */ transform: rotate(-20deg);">
-    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-    <img src="./assets/photos/bici_monitos.png" width="20%">
-</marquee>
-
 <!-- SECCION DE NOSOTROS -->
-<section  id="nosotros">
+<section  id="nosotros" class="nosotrosPosicion" >
     <h3 style="text-align: center; color:rgb(211, 19, 19) ; FONT-FAMILY: cursive;">NUESTRA HISTORIA</h3>
-    <BR/><BR/><BR/>
-    <app-carousel></app-carousel>
+    <br>
+    <br>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12" >
+                <app-carousel></app-carousel>
+            </div>
+        </div>
+    </div>
 </section>
 
 <!-- SECCION DE DONDE Y CUENDO -->
-<section  id="dondeYCuando">
+<section  id="dondeYCuando" class="dondeYCuandoPosicion">
     <BR/><BR/><BR/><BR/><BR/>
     <h3 style="text-align: center; color:rgb(211, 19, 19) ; FONT-FAMILY: cursive;">¿CUÁNDO Y  DÓNDE SERÁ LA BODA?</h3>
     <BR/><BR/><BR/><BR/><BR/><BR/><BR/><BR/><BR/><BR/>
@@ -68,13 +58,11 @@
                         <h4 class="card-title">CEREMONIA RELIGIOSA</h4>
                         <p class="card-text"><b>Dirección:</b> Plaza Principal S/N, Sta Cruz Meyehualco, Iztapalapa, 09700 Ciudad de México, CDMX.</p> 
                     </div>
-
-
                     <iframe class="mapa-pop" src="https://www.google.com/maps/embed/v1/place?key=AIzaSyB1geNxkp_O4NgreB1jwUeAOh2Cu_j7Gjw&amp;q=19.33958654509604,-99.03908603895836" height="300" frameborder="0" style="border:0" allowfullscreen=""></iframe>
-
                 </div>
             </div>
-            <div class="col-md-6" style="width:25rem ;">
+
+            <div class="col-md-6" style="width:25rem;">
                 <div class="card"> <img class="card-img-top" 
                                         src="https://cdn0.bodas.com.mx/vendor/5507/3_2/960/jpg/galeria-2_5_85507-160400150382808.jpeg"
                                         alt="Card image cap">
@@ -92,11 +80,13 @@
     </div>
 </section>
 
-<!-- SECCION CONFIRMAR ASISTENCIA -->
-<section  id="confirmarAsistencia">
-   
-    <BR/><BR/>
 
+
+<!-- SECCION CONFIRMAR ASISTENCIA -->
+<section  id="confirmarAsistencia" class="confirmarAsistenciaPosicion">
+    <BR/><BR/><BR/><BR/><BR/>
+    <h3 style="text-align: center; color:rgb(211, 19, 19) ; FONT-FAMILY: cursive;">CONFIRMA TU ASISTENCIA</h3>
+    <BR/><BR/>
     <div class="container">
         <div class="row">
             <div class="col-md-11" style="width:25rem ;">
@@ -105,7 +95,6 @@
 
         </div>
     </div>
- 
     <BR/>
     <div class="container">
         <div class="row">
@@ -115,12 +104,11 @@
 
         </div>
     </div>
-
-    
 </section>
 
+
 <!-- FOTOS -->
-<section  id="fotos">
+<section  id="fotos" style="position: relative;top: 50vw;">
     <BR/><BR/><BR/><BR/><BR/>
     <h3 style="text-align: center; color:rgb(211, 19, 19) ; FONT-FAMILY: cursive;">MIRA NUESTRAS FOTOS</h3>
     <BR/><BR/>
@@ -130,59 +118,68 @@
     <div class="container">
         <div class="row">
             <div class="col-md-12" style="width:25rem ;">
-                 <ng-image-slider [images]="imgObject" #nav></ng-image-slider>
-                 <ng-image-slider [images]="imgObject2" #nav></ng-image-slider>
-                 
-                </div>
+                <ng-image-slider [images]="imgObject" #nav></ng-image-slider>
+                <ng-image-slider [images]="imgObject2" #nav></ng-image-slider>
+                <ng-image-slider [images]="imgObject3" #nav></ng-image-slider>
+                <ng-image-slider [images]="imgObject4" #nav></ng-image-slider> 
+            </div>
         </div>
     </div>
-
     <BR/><BR/><BR/><BR/><BR/> <BR/><BR/>
-
-
 </section>
 
 
-<section  id="regalos">
-  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<section  id="regalos" style="position: relative;top: 40vw;">
+    <BR/><BR/><BR/><BR/><BR/>
     <h3 style="text-align: center; color:rgb(211, 19, 19) ; FONT-FAMILY: cursive;">SUGERENCIA DE TIENDAS PARA REGALOS</h3>
     <BR/><BR/>
     <div class="container">
 
         <div class="row">
-            <div class="col-md-4" style="width:25rem ;">
 
+           
+
+
+            <div class="col-md-4 " style="width:25rem ; ">
                  <a href="https://www.amazon.com.mx/"  ><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Amazon_logo.svg/2560px-Amazon_logo.svg.png" alt="Trulli" width="100%" height="70%"></a>
             </div>
             <div class="col-md-4" style="width:25rem ;">
-
                 <a href="https://www.liverpool.com.mx/tienda/home"  ><img src="https://i0.wp.com/glife.lat/wp-content/uploads/2016/12/banner-liverpool.png" alt="Trulli" width="100%" height="90%"></a>
             </div>
 
-
             <div class="col-md-4" style="width:25rem ;">
-
-            <a href="https://www.linio.com.mx/"  ><img src="https://i.blogs.es/519b4e/linio/1366_2000.jpg" alt="Trulli" width="100%" height="90%"></a>
+                <a href="https://www.linio.com.mx/"  ><img src="https://i.blogs.es/519b4e/linio/1366_2000.jpg" alt="Trulli" width="100%" height="90%"></a>
             </div>
-
         </div>
 
 
 
         <div class="row">
             <div class="col-md-4" style="width:25rem ;">
-
-                 <a href="https://www.amazon.com.mx/"  ><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Amazon_logo.svg/2560px-Amazon_logo.svg.png" alt="Trulli" width="100%" height="70%"></a>
-            </div>
-            <div class="col-md-4" style="width:25rem ;">
-
-                <a href="https://www.liverpool.com.mx/tienda/home"  ><img src="https://i0.wp.com/glife.lat/wp-content/uploads/2016/12/banner-liverpool.png" alt="Trulli" width="100%" height="90%"></a>
+                 <a href="https://www.elpalaciodehierro.com/"  ><img src="https://www.elpalaciodehierro.com/on/demandware.static/-/Library-Sites-palacio-content-global/default/dw2e6f5daa/images/el-palacio-de-hierro.svg" alt="Trulli" width="100%" height="70%"></a>
             </div>
 
+            <div class="col-md-4" style="width:25rem ;">
+                <a href="https://www.suburbia.com.mx/"  ><img src="https://assets.suburbia.com.mx/assets/images/mailing/logo.png" alt="Trulli" width="100%" height="70%"></a>
+            </div>
 
             <div class="col-md-4" style="width:25rem ;">
-
-            <a href="https://www.linio.com.mx/"  ><img src="https://i.blogs.es/519b4e/linio/1366_2000.jpg" alt="Trulli" width="100%" height="90%"></a>
+            <a href="https://www.walmart.com.mx/" style="background-color: #017adb;">
+                <img src="https://www.supercouponlady.com/wp-content/uploads/2018/01/Walmart_logo_blue.png" alt="Trulli" width="100%" height="100%"></a>
             </div>
 
         </div>
@@ -193,20 +190,78 @@
     <BR/><BR/><BR/>
 </section>
 
-
-<section  id="dressCode">
+<section  id="dressCode" style="position: relative;top: 40vw;">
     <div class="container">
-        <h3 style="text-align: center; color:rgb(211, 19, 19) ; FONT-FAMILY: cursive;">DRESS CODE </h3>
-
+        <h3 style="text-align: center; color:rgb(211, 19, 19) ; FONT-FAMILY: cursive;">DRESS CODE (CÓDIGO DE VESTIMENTA)</h3>
         <div class="row">
-            <div class="col-md-2" ></div>
-            <div class="col-md-6" >
-                <img src="./assets/imagenes/dressCode.png" >
+            <div class="col-md-4" >
+                <img src="./assets/imagenes/dressCode/dressCode1.jpg" width="90%" >
                 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
             </div>
+            <div class="col-md-4" >
+                <img src="./assets/imagenes/dressCode/dressCode2.png" width="90%">
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            </div>
+            <div class="col-md-4" >
+                <img src="./assets/imagenes/dressCode/dressCode3.png" width="90%" >
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            </div>
+        </div>
+        <div class="row">
             <div class="col-md-2" ></div>
+            <div class="col-md-4" >
+                <img src="./assets/imagenes/dressCode/dressCode4.png" width="90%">
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            </div>
+            <div class="col-md-4" >
+                <img src="./assets/imagenes/dressCode/dressCode5.png" width="90%" >
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            </div>
         </div>
     </div>
-   
-
 </section>
+
+<section  id="cosas"  style="position: relative;top: 50vw;">
+    <!-- IMAGEN CON MOVIMIENTO -->
+
+    <marquee scrollamount="20" direction="right" >
+        <!-- //guadalupe y miguel -->
+        <img src="./assets/imagenes/GUMI.PNG" width="40%" >
+        <!-- //guadalupe y miguel -->
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <img src="./assets/imagenes/globo.png" width="5%" style=" -ms-transform: rotate(20deg); /* IE 9 */  transform: rotate(20deg);">
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <img src="./assets/imagenes/globo.png" width="5%" style=" -ms-transform: rotate(-20deg); /* IE 9 */ transform: rotate(-20deg);">
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <!-- //guadalupe y miguel -->
+        <img src="./assets/imagenes/GUMI.PNG" width="40%" >
+        <!-- //guadalupe y miguel -->
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <img src="./assets/imagenes/globo.png" width="5%" style=" -ms-transform: rotate(20deg); /* IE 9 */  transform: rotate(20deg);">
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <img src="./assets/imagenes/globo.png" width="5%" style=" -ms-transform: rotate(-20deg); /* IE 9 */ transform: rotate(-20deg);">
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <!-- //guadalupe y miguel -->
+        <img src="./assets/imagenes/GUMI.PNG" width="40%" >
+        <!-- //guadalupe y miguel -->
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <img src="./assets/imagenes/globo.png" width="5%" style=" -ms-transform: rotate(20deg); /* IE 9 */  transform: rotate(20deg);">
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <img src="./assets/imagenes/globo.png" width="5%" style=" -ms-transform: rotate(-20deg); /* IE 9 */ transform: rotate(-20deg);">
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <!-- //guadalupe y miguel -->
+        <img src="./assets/imagenes/GUMI.PNG" width="40%" >
+        <!-- //guadalupe y miguel -->
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <img src="./assets/imagenes/globo.png" width="5%" style=" -ms-transform: rotate(20deg); /* IE 9 */  transform: rotate(20deg);">
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <img src="./assets/imagenes/globo.png" width="5%" style=" -ms-transform: rotate(-20deg); /* IE 9 */ transform: rotate(-20deg);">
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <img src="./assets/imagenes/bici_monitos.png" width="20%">
+        <BR/><BR/><BR/><BR/><BR/><BR/><BR/><BR/><BR/><BR/>
+    </marquee>
+</section>
+
+
+
+

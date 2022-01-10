@@ -1,0 +1,52 @@
+.colorFondo {
+    content: "";
+    width: 100%;
+    min-width: 100vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: linear-gradient(90deg,#ffe600,#c40000);
+    opacity: 0.3;
+}
+
+.imagenAtras {
+  position: absolute;
+  left: 0;
+  top: 6.6vw; 
+  z-index: -100;
+}
+
+.btn{
+    border-radius: 1em;
+    background-color: #FFF; 
+    border-color: black;
+
+
+    display: inline-block;
+    text-align: center;
+    font-size: 28px;
+    padding: 20px;
+    width: 200px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+    
+}
+
+.nosotrosPosicion{
+  position: relative;
+  align-items: center;
+  top: 70vw;
+}
+
+.dondeYCuandoPosicion{
+  position: relative;
+  align-items: center;
+  top: 70vw;
+}
+
+.confirmarAsistenciaPosicion{
+  position: relative;
+  align-items: center;
+  top: 50vw;
+}

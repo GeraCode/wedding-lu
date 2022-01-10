@@ -13,7 +13,7 @@
     position: fixed; /* Set the navbar to fixed position */
     top: 0; /* Position the navbar at the top of the page */
     width: 100%; /* Full width */
-    z-index: 100; /* para mandar a z 100, que este hasta enfrente */
+    z-index: 200; /* para mandar a z 100, que este hasta enfrente */
 
   }
   
@@ -29,7 +29,8 @@
 
   .logo{
     display: block;
-    margin: 0px auto;
+    margin: 0vh auto;
+    margin: 0vw auto;
     width: 75%; //tamaño de imagen
   }
  

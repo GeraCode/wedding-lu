@@ -1,42 +1,96 @@
-<div class="container" style="width: 100%;">
+<div class="container" >
 
-<ngb-carousel *ngIf="images">
-    <ng-template ngbSlide>
-      <div class="picsum-img-wrapper">
-        <img [src]="images[0]" alt="Random first slide" >
-      </div>
-      <div class="carousel-caption">
-        <h3>Nos casamos!!!  Recuerdalo!!</h3>
-        <p>Nos vemos ahí.</p>
-      </div>
-    </ng-template>
-    <ng-template ngbSlide>
-      <div class="picsum-img-wrapper">
-        <img [src]="images[1]" alt="Random second slide">
-      </div>
-      <div class="carousel-caption">
-        <h3>Nos casamos</h3>
-        <p>Lupe y Migue</p>
-      </div>
-    </ng-template>
-    <ng-template ngbSlide>
-      <div class="picsum-img-wrapper">
-        <img [src]="images[2]" alt="Random third slide">
-      </div>
-      <div class="carousel-caption">
-        <h3>Nos casamos</h3>
-        <p>Lupe y Migue</p>
-      </div>
-    </ng-template>
+<ngb-carousel *ngIf="images" >
+      
+        <ng-template ngbSlide>
+          <div class="picsum-img-wrapper">
+            <img [src]="images[0]" alt="Random first slide" class="carrouselImageSize">
+          </div>
+          <div class="carousel-caption">
+            <h3 class="carrouselLetterSize">El destino nos presentó en el trabajo</h3>
+            <p class="carrouselLetterSize"> Ahí nos conocimos!!!</p>
+          </div>
+        </ng-template>
 
-    <ng-template ngbSlide>
-      <div class="picsum-img-wrapper">
-        <img [src]="images[3]" alt="Random third slide">
-      </div>
-      <div class="carousel-caption">
-        <h3>Nos casamos</h3>
-        <p>Lupe y Migue</p>
-      </div>
-    </ng-template>
+        <ng-template ngbSlide>
+          <div class="picsum-img-wrapper">
+            <img [src]="images[1]" alt="Random second slide" class="carrouselImageSize">
+          </div>
+          <div class="carousel-caption">
+            <h3 class="carrouselLetterSize">Sin saber que serìamos compañeros de vida.</h3>
+            <p class="carrouselLetterSize"> :D </p>
+          </div>
+        </ng-template>
+
+        <ng-template ngbSlide>
+          <div class="picsum-img-wrapper">
+            <img [src]="images[2]" alt="Random third slide" class="carrouselImageSize">
+          </div>
+          <div class="carousel-caption">
+            <h3 class="carrouselLetterSize">Comenzamos a conocernos.</h3>
+            <p class="carrouselLetterSize"> n_n</p>
+          </div>
+        </ng-template>
+
+        <ng-template ngbSlide>
+          <div class="picsum-img-wrapper">
+            <img [src]="images[3]" alt="Random four slide" class="carrouselImageSize">
+          </div>
+          <div class="carousel-caption">
+            <h3 class="carrouselLetterSize">Después, iniciamos una relaciòn en la cual...</h3>
+            <p class="carrouselLetterSize"> decidimos vivir en pareja.</p>
+          </div>
+        </ng-template>
+
+        <ng-template ngbSlide>
+          <div class="picsum-img-wrapper">
+            <img [src]="images[4]" alt="Random five slide" class="carrouselImageSize">
+          </div>
+          <div class="carousel-caption">
+            <h3 class="carrouselLetterSize">Posteriormente nos casamos.</h3>
+            <p class="carrouselLetterSize"> :D </p>
+          </div>
+        </ng-template>
+
+        <ng-template ngbSlide>
+          <div class="picsum-img-wrapper">
+            <img [src]="images[5]" alt="Random six slide" class="carrouselImageSize">
+          </div>
+          <div class="carousel-caption">
+            <h3 class="carrouselLetterSize">Queremos la bendición de Dios</h3>
+            <p class="carrouselLetterSize"> :D </p>
+          </div>
+        </ng-template>
+
+        <ng-template ngbSlide>
+          <div class="picsum-img-wrapper">
+            <img [src]="images[6]" alt="Random seven slide" class="carrouselImageSize">
+          </div>
+          <div class="carousel-caption">
+            <p class="carrouselLetterSize"> Ahora... </p>
+            <h3 class="carrouselLetterSize">Estamos convencidos de compartir el resto del camino juntos</h3>
+          </div>
+        </ng-template>
+
+
+        <ng-template ngbSlide>
+          <div class="picsum-img-wrapper">
+            <img [src]="images[7]" alt="Random eigth slide" class="carrouselImageSize">
+          </div>
+          <div class="carousel-caption">
+            <h3 class="carrouselLetterSize">Por cierto, el es Kraken</h3>
+            <h3 class="carrouselLetterSize">Nuestro amigo perruno</h3>
+          </div>
+        </ng-template>
+
+        <ng-template ngbSlide>
+          <div class="picsum-img-wrapper">
+            <img [src]="images[8]" alt="Random nine slide" class="carrouselImageSize">
+          </div>
+          <div class="carousel-caption">
+            <h3 class="carrouselLetterSize">María Guadalupe<br> & <br>Miguel Ángel</h3>
+          </div>
+        </ng-template>
+
   </ngb-carousel>
   </div>
