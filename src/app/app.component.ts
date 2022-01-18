@@ -106,11 +106,17 @@ export class AppComponent {
       title: 'Guadalupe y Miguel',
       alt: 'Guadalupe y Miguel 6'
     }, {
-      image: './assets/photos/img7.jpg',
-      thumbImage: './assets/photos/img7.jpg',
+      image: './assets/photos/img21.JPG',
+      thumbImage: './assets/photos/img21.JPG',
       title: 'Guadalupe y Miguel',
-      alt: 'Guadalupe y Miguel 7'
-    }, {
+      alt: 'Guadalupe y Miguel 21'
+    }
+    
+    
+    
+    
+    
+    , {
       image: './assets/photos/img8.jpg',
       thumbImage: './assets/photos/img8.jpg',
       title: 'Guadalupe y Miguel',
@@ -197,12 +203,7 @@ export class AppComponent {
         alt: 'Guadalupe y Miguel 20'
       }
   
-      , {
-        image: './assets/photos/img21.JPG',
-        thumbImage: './assets/photos/img21.JPG',
-        title: 'Guadalupe y Miguel',
-        alt: 'Guadalupe y Miguel 21'
-      }
+      
       
     ];
   

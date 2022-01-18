@@ -9,6 +9,7 @@ import { TimerComponent } from './components/timer/timer.component';
 import { CarouselComponent } from './components/carousel/carousel.component';
 import { GalleryComponent } from './components/gallery/gallery.component';
 import { NgImageSliderModule } from 'ng-image-slider';
+import { PhotosGalleryComponent } from './components/photos-gallery/photos-gallery.component';
 
 @NgModule({
   declarations: [
@@ -17,6 +18,7 @@ import { NgImageSliderModule } from 'ng-image-slider';
     TimerComponent,
     CarouselComponent,
     GalleryComponent,
+    PhotosGalleryComponent,
   ],
   imports: [
     BrowserModule,

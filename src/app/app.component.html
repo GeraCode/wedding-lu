@@ -1,9 +1,15 @@
+<style>
+    @import url('https://fonts.googleapis.com/css?family=Mochiy Pop P One');
+</style>
+
+
+
 <!-- MENU -->
 <app-navbar></app-navbar>
 
 <!-- IMAGEN DE INICIO CON CONTADOR -->
 <section  id="inicio" >
-    <!--<h1 style=" position: absolute; 
+    <!--<h1  class="colorFondo" style=" position: absolute; 
                 top: 16vw; 
                 left: -3vw;
                 z-index: 500; 
@@ -23,15 +29,82 @@
         <br>Miguel Ángel
         <br><br> "25 de febrero del 2022"
     </h1> -->
-    <img src="./assets/imagenes/principal.jpg" alt="" width="100%" class="imagenAtras">
-    <app-timer style="align-content: center;" ></app-timer>
+
+    <img src="./assets/imagenes/principal3.JPG" alt="" width="100%" 
+        style="position: absolute;
+               left: 0;
+               top: 9vw; 
+               z-index: -1;">
+    <app-timer style=" position: absolute;     
+                       top: 60vw;    
+                       left: 0vw; " >
+    </app-timer>
 </section>
 
+
+
+<section  id="Texto1" 
+          style=" position: relative; align-items: center; top: 84.5vw;"
+          class="colorFondoLetras">
+        <br> <br><br>
+        <div class="container ">
+
+            <div class="row">
+                <div class="col-md-12" >                 
+                    <p class="letraCursivaElegante" style="font-size: 3vw;">Ni el COVID-19 detuvo la boda</p>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-2" > </div>
+                <div class="col-md-8" >                 
+                    <h6 class="letraCursivaElegante" style="font-size: 3vw;">¡¡¡Por fin nos casamos!!!</h6>
+                </div>
+                <div class="col-md-2" > </div>
+            </div>
+
+            <div class="row" >
+                <div class="col-md-12" > 
+                    <p class="letraCursivaElegante" style="font-size: 4vw;">Maria Guadalupe <br> &<br> Miguel Angel</p>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-2" > </div>
+                <div class="col-md-8" >                 
+                    <p class="letraCursivaElegante" style="font-size: 3vw;">
+                        Felizmente celebraremos y queremos  <br>que nos acompañes
+                        en este día tan especial para nosotros. </p>
+                
+                </div>
+                <div class="col-md-2" > </div>
+
+            </div>
+            <div class="row" >
+                <div class="col-md-12" > 
+                    <p class="letraCursivaElegante" style="font-size: 4vw;">&hearts;&nbsp;&nbsp;&nbsp;25 de febrero del 2022&nbsp;&nbsp;&hearts;</p>
+                </div>
+            </div>
+        </div>
+        <br> <br>
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
 <!-- SECCION DE NOSOTROS -->
-<section  id="nosotros" class="nosotrosPosicion" >
+<section  id="nosotros" style="position: relative; align-items: center; top: 100vw;" >
+    <br> <br> <br>
     <h3 style="text-align: center; color:rgb(211, 19, 19) ; FONT-FAMILY: cursive;">NUESTRA HISTORIA</h3>
-    <br>
-    <br>
+   <br>
     <div class="container">
         <div class="row">
             <div class="col-md-12" >
@@ -39,15 +112,22 @@
             </div>
         </div>
     </div>
+    <br><br>
 </section>
 
-<!-- SECCION DE DONDE Y CUENDO -->
-<section  id="dondeYCuando" class="dondeYCuandoPosicion">
+<!-- SECCION DE DONDE Y CUANDO -->
+<section  id="dondeYCuando" 
+            style=" position: relative; align-items: center; top: 100vw;"
+            class="colorRosaSeccion">
     <BR/><BR/><BR/><BR/><BR/>
     <h3 style="text-align: center; color:rgb(211, 19, 19) ; FONT-FAMILY: cursive;">¿CUÁNDO Y  DÓNDE SERÁ LA BODA?</h3>
-    <BR/><BR/><BR/><BR/><BR/><BR/><BR/><BR/><BR/><BR/>
+    <BR/><BR/>
 
-    <div class="py-5" style="position: relative; top:-250px;">
+    <div class="py-5" 
+    style=" font-family: 'Mochiy Pop P One';
+    text-align: center;
+    color: rgba(211, 19, 19, 0.767);
+    font-weight: bold;">
         <div class="container">
         <div class="row">
             <div class="col-md-6" style="width:25rem ;">
@@ -55,21 +135,25 @@
                                         src="https://live.staticflickr.com/2851/33759666116_a4f2216a02_b.jpg"
                                         alt="Card image cap">
                     <div class="card-body">
-                        <h4 class="card-title">CEREMONIA RELIGIOSA</h4>
-                        <p class="card-text"><b>Dirección:</b> Plaza Principal S/N, Sta Cruz Meyehualco, Iztapalapa, 09700 Ciudad de México, CDMX.</p> 
+                        <h4 class="card-title" style="color: rgb(211, 0, 0);">Ceremonia</h4>
+                        <p class="card-text"><b style="color: rgb(211, 0, 0);">Dirección:</b>  Parroquia Santa Cruz Meyohualco, <br>Plaza Principal <br> Pueblo de Sta Cruz Meyehualco<br> Iztapalapa, CDMX.</p> 
                     </div>
+                    <h4 class="card-title" style="color: rgb(211, 0, 0);">Hora </h4>
+                    <h4 class="card-title" style="color: rgb(211, 0, 0);">4:45 pm</h4>
                     <iframe class="mapa-pop" src="https://www.google.com/maps/embed/v1/place?key=AIzaSyB1geNxkp_O4NgreB1jwUeAOh2Cu_j7Gjw&amp;q=19.33958654509604,-99.03908603895836" height="300" frameborder="0" style="border:0" allowfullscreen=""></iframe>
                 </div>
             </div>
-
+            <br><br>
             <div class="col-md-6" style="width:25rem;">
                 <div class="card"> <img class="card-img-top" 
                                         src="https://cdn0.bodas.com.mx/vendor/5507/3_2/960/jpg/galeria-2_5_85507-160400150382808.jpeg"
                                         alt="Card image cap">
                     <div class="card-body">
-                        <h4 class="card-title">RECEPCION</h4>
-                        <p class="card-text"><b>Dirección:</b> Av: Hidalgo #15 Col. Pueblo de, Sta Cruz Meyehualco, 09700 Ciudad de México, CDMX
+                        <h4 class="card-title" style="color: rgb(211, 0, 0);">Recepción</h4>
+                        <p class="card-text"><b style="color: rgb(211, 0, 0);">Dirección:</b>  Jardín de la fuente ,Calle Hidalgo No.15 <br> Pueblo de Sta Cruz Meyehualco <br> Iztapalapa, CDMX.
                         </p>
+                        <h4 class="card-title" style="color: rgb(211, 0, 0);">Hora </h4>
+                        <h4 class="card-title" style="color: rgb(211, 0, 0);">6:30 pm</h4>
                     </div>
                     <iframe class="mapa-pop" src="https://www.google.com/maps/embed/v1/place?key=AIzaSyB1geNxkp_O4NgreB1jwUeAOh2Cu_j7Gjw&amp;q=19.339475469350997, -99.04084992929062" height="300" frameborder="0" style="border:0" allowfullscreen=""></iframe>
 
@@ -82,8 +166,32 @@
 
 
 
+
+<!-- FOTOS -->
+<section  id="fotos" style="position: relative;top: 100vw;" >
+    <BR/><BR/><BR/><BR/><BR/>
+    <h3 style="text-align: center; color:rgb(211, 19, 19) ; FONT-FAMILY: cursive;">MIRA NUESTRAS FOTOS</h3>
+    <BR/><BR/>
+    <!-- <app-gallery></app-gallery>
+    -->
+
+    <div class="container" >
+        <div class="row">
+            <div class="col-md-12" style="width:25rem ;">
+                <ng-image-slider [images]="imgObject" #nav></ng-image-slider>
+                <ng-image-slider [images]="imgObject2" #nav></ng-image-slider>
+                <ng-image-slider [images]="imgObject3" #nav></ng-image-slider>
+                <ng-image-slider [images]="imgObject4" #nav></ng-image-slider> 
+            </div>
+        </div>
+    </div>
+    <BR/><BR/><BR/><BR/><BR/> <BR/><BR/>
+</section>
+
+
+
 <!-- SECCION CONFIRMAR ASISTENCIA -->
-<section  id="confirmarAsistencia" class="confirmarAsistenciaPosicion">
+<section  id="confirmarAsistencia" style="position: relative; align-items: center; top: 100vw;" class="colorRosaSeccion">
     <BR/><BR/><BR/><BR/><BR/>
     <h3 style="text-align: center; color:rgb(211, 19, 19) ; FONT-FAMILY: cursive;">CONFIRMA TU ASISTENCIA</h3>
     <BR/><BR/>
@@ -104,28 +212,7 @@
 
         </div>
     </div>
-</section>
-
-
-<!-- FOTOS -->
-<section  id="fotos" style="position: relative;top: 50vw;">
-    <BR/><BR/><BR/><BR/><BR/>
-    <h3 style="text-align: center; color:rgb(211, 19, 19) ; FONT-FAMILY: cursive;">MIRA NUESTRAS FOTOS</h3>
-    <BR/><BR/>
-    <!-- <app-gallery></app-gallery>
-    -->
-
-    <div class="container">
-        <div class="row">
-            <div class="col-md-12" style="width:25rem ;">
-                <ng-image-slider [images]="imgObject" #nav></ng-image-slider>
-                <ng-image-slider [images]="imgObject2" #nav></ng-image-slider>
-                <ng-image-slider [images]="imgObject3" #nav></ng-image-slider>
-                <ng-image-slider [images]="imgObject4" #nav></ng-image-slider> 
-            </div>
-        </div>
-    </div>
-    <BR/><BR/><BR/><BR/><BR/> <BR/><BR/>
+    <br><br>
 </section>
 
 
@@ -143,7 +230,23 @@
 
 
 
-<section  id="regalos" style="position: relative;top: 40vw;">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<section  id="regalos" style="position: relative;top: 100vw;" >
     <BR/><BR/><BR/><BR/><BR/>
     <h3 style="text-align: center; color:rgb(211, 19, 19) ; FONT-FAMILY: cursive;">SUGERENCIA DE TIENDAS PARA REGALOS</h3>
     <BR/><BR/>
@@ -190,10 +293,12 @@
     <BR/><BR/><BR/>
 </section>
 
-<section  id="dressCode" style="position: relative;top: 40vw;">
+<section  id="dressCode" style="position: relative;top: 120vw;" class="colorRosaSeccion">
+    <br><br>
     <div class="container">
         <h3 style="text-align: center; color:rgb(211, 19, 19) ; FONT-FAMILY: cursive;">DRESS CODE (CÓDIGO DE VESTIMENTA)</h3>
-        <div class="row">
+        <br><br>
+        <!--<div class="row">
             <div class="col-md-4" >
                 <img src="./assets/imagenes/dressCode/dressCode1.jpg" width="90%" >
                 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
@@ -217,51 +322,31 @@
                 <img src="./assets/imagenes/dressCode/dressCode5.png" width="90%" >
                 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
             </div>
+        </div>-->
+
+        <div class="row">
+            <div class="col-md-4"  ></div>
+            <div class="col-md-4"  >
+                <img src="./assets/imagenes/dressCode/DressCode10.png" width="100%" >
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            </div>     
+            <div class="col-md-4"  ></div>    
         </div>
+        <div class="row">
+            <div class="col-md-12" >                 
+                <p class="letraCursivaElegante" style="font-size: 4vw;">Semi Formal </p>
+            </div>
+        </div>
+ 
     </div>
-</section>
-
-<section  id="cosas"  style="position: relative;top: 50vw;">
-    <!-- IMAGEN CON MOVIMIENTO -->
-
-    <marquee scrollamount="20" direction="right" >
-        <!-- //guadalupe y miguel -->
-        <img src="./assets/imagenes/GUMI.PNG" width="40%" >
-        <!-- //guadalupe y miguel -->
-        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-        <img src="./assets/imagenes/globo.png" width="5%" style=" -ms-transform: rotate(20deg); /* IE 9 */  transform: rotate(20deg);">
-        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-        <img src="./assets/imagenes/globo.png" width="5%" style=" -ms-transform: rotate(-20deg); /* IE 9 */ transform: rotate(-20deg);">
-        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-        <!-- //guadalupe y miguel -->
-        <img src="./assets/imagenes/GUMI.PNG" width="40%" >
-        <!-- //guadalupe y miguel -->
-        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-        <img src="./assets/imagenes/globo.png" width="5%" style=" -ms-transform: rotate(20deg); /* IE 9 */  transform: rotate(20deg);">
-        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-        <img src="./assets/imagenes/globo.png" width="5%" style=" -ms-transform: rotate(-20deg); /* IE 9 */ transform: rotate(-20deg);">
-        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-        <!-- //guadalupe y miguel -->
-        <img src="./assets/imagenes/GUMI.PNG" width="40%" >
-        <!-- //guadalupe y miguel -->
-        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-        <img src="./assets/imagenes/globo.png" width="5%" style=" -ms-transform: rotate(20deg); /* IE 9 */  transform: rotate(20deg);">
-        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-        <img src="./assets/imagenes/globo.png" width="5%" style=" -ms-transform: rotate(-20deg); /* IE 9 */ transform: rotate(-20deg);">
-        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-        <!-- //guadalupe y miguel -->
-        <img src="./assets/imagenes/GUMI.PNG" width="40%" >
-        <!-- //guadalupe y miguel -->
-        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-        <img src="./assets/imagenes/globo.png" width="5%" style=" -ms-transform: rotate(20deg); /* IE 9 */  transform: rotate(20deg);">
-        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-        <img src="./assets/imagenes/globo.png" width="5%" style=" -ms-transform: rotate(-20deg); /* IE 9 */ transform: rotate(-20deg);">
-        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-        <img src="./assets/imagenes/bici_monitos.png" width="20%">
-        <BR/><BR/><BR/><BR/><BR/><BR/><BR/><BR/><BR/><BR/>
-    </marquee>
+    <br><br>
 </section>
 
 
+<BR/><BR/><BR/><BR/><BR/><BR/><BR/><BR/><BR/><BR/>
+<BR/><BR/><BR/><BR/><BR/><BR/><BR/><BR/><BR/><BR/>
+<BR/><BR/><BR/><BR/><BR/><BR/><BR/><BR/><BR/><BR/>
 
+<!--<app-photos-gallery></app-photos-gallery>-->
 
+<!--<app-gallery  style="position: relative;top: 120vw;"></app-gallery>-->

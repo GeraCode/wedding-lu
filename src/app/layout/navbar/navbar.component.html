@@ -16,49 +16,51 @@
       <div [ngClass]="{ collapse: collapsed, 'navbar-collapse': true }" id="miNavBar">
         <ul class="navbar-nav mr-auto">
 
-              <li class="nav-item"  >
-                <a  pageScroll  class="nav-link" href="#inicio" > 
+              <li class="nav-item"   >
+                <a  pageScroll  class="nav-link" href="#inicio"  (click)="toggleCollapsed()"> 
                   <i class="fa fa-3x fa-home"></i> 
                   <p class="texto-centrado" style="white-space:nowrap;">INICIO</p>   
                 </a>
               </li>
               
               <li class="nav-item">
-                <a  pageScroll  class="nav-link " href="#nosotros" > 
+                <a  pageScroll  class="nav-link " href="#nosotros" (click)="toggleCollapsed()" > 
                   <i class="fa fa-3x fa-user-md">  </i> 
                   <p class="texto-centrado" style="white-space:nowrap;">NUESTRA HISTORIA</p>   
                 </a>
               </li>
 
               <li class="nav-item">
-                <a  pageScroll  class="nav-link pure-button pure-button-primary" href="#dondeYCuando"> 
+                <a  pageScroll  class="nav-link pure-button pure-button-primary" href="#dondeYCuando" (click)="toggleCollapsed()"> 
                   <i class="fa fa-3x fa-car">  </i>
                   <p class="texto-centrado" style="white-space:nowrap;">¿CUÁNDO & DÓNDE?</p>
                 </a>
               </li>
 
               <li class="nav-item">
-                <a  pageScroll class="nav-link" href="#inicio" > 
+                <a  pageScroll class="nav-link" href="#inicio" (click)="toggleCollapsed()" > 
                   <img src="./assets/imagenes/logo_lu.jpg" alt="" class="logo"/>
                 </a>
               </li>
         
+             
+              <li class="nav-item">
+                <a  pageScroll  class="nav-link" href="#fotos" (click)="toggleCollapsed()"> 
+                  <i class="fa fa-3x fa-camera-retro">  </i> 
+                  <p class="texto-centrado" style="white-space:nowrap;">FOTOS</p>   
+                </a>
+              </li>
+
               <li class="nav-item" >
-                <a pageScroll  class="nav-link" href="#confirmarAsistencia" > 
+                <a pageScroll  class="nav-link" href="#confirmarAsistencia" (click)="toggleCollapsed()"> 
                   <i class="fa fa-3x fa-calendar-check-o">  </i> 
                   <p class="texto-centrado" style="white-space:nowrap;">CONFIRMAR ASISTENCIA</p>   
                 </a>
               </li>
               
-              <li class="nav-item">
-                <a  pageScroll  class="nav-link" href="#fotos" > 
-                  <i class="fa fa-3x fa-camera-retro">  </i> 
-                  <p class="texto-centrado" style="white-space:nowrap;">FOTOS</p>   
-                </a>
-              </li>
               
               <li class="nav-item">
-                <a pageScroll  class="nav-link" href="#regalos" > 
+                <a pageScroll  class="nav-link" href="#regalos" (click)="toggleCollapsed()"> 
                   <i class="fa fa-3x fa-gift">  </i> 
                   <p class="texto-centrado" style="white-space:nowrap;">MESA DE REGALOS</p>   
                 </a>

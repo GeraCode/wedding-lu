@@ -1,20 +1,30 @@
-.colorFondo {
-    content: "";
-    width: 100%;
-    min-width: 100vh;
-    position: absolute;
-    top: 0;
-    left: 0;
-    background: linear-gradient(90deg,#ffe600,#c40000);
-    opacity: 0.3;
+
+.letraCursivaElegante{
+
+  font-family: 'Mochiy Pop P One';
+  text-align: center;
+  color: rgb(211, 19, 19);
+  font-weight: bold;
 }
 
-.imagenAtras {
-  position: absolute;
-  left: 0;
-  top: 6.6vw; 
-  z-index: -100;
+
+.colorFondo {
+    width: 100%;
+    background: linear-gradient(90deg,#2fa0fc,#d945f7);
+    opacity: 0.5;
 }
+
+.colorFondoLetras {
+  width: 100%;
+  background: linear-gradient(90deg,#cc000077,#ffffff);
+  opacity: 0.5;
+}
+.colorRosaSeccion {
+  width: 100%;
+  background: linear-gradient(90deg,#fd000054,#ffffff);
+  opacity: 0.8;
+}
+
 
 .btn{
     border-radius: 1em;
@@ -33,20 +43,3 @@
     
 }
 
-.nosotrosPosicion{
-  position: relative;
-  align-items: center;
-  top: 70vw;
-}
-
-.dondeYCuandoPosicion{
-  position: relative;
-  align-items: center;
-  top: 70vw;
-}
-
-.confirmarAsistenciaPosicion{
-  position: relative;
-  align-items: center;
-  top: 50vw;
-}
